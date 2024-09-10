@@ -1,0 +1,14 @@
+Variable OMP_NUM_THREADS has been set to 12
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+# All requested packages already installed.
+
+[ WARN:0@0.064] global loadsave.cpp:241 findDecoder imread_('/data/scratch/ec23594/NeRSemble/sequence_BACKGROUND_part-1/031/BACKGROUND/image_222200042.jpg'): can't open/read file: check file path/integrity
+Traceback (most recent call last):
+  File "preprocess_nersemble.py", line 111, in <module>
+    extract_frames(['031', '036'])
+  File "preprocess_nersemble.py", line 63, in extract_frames
+    cv2.imwrite(os.path.join(DATA_OUTPUT, id, 'background', 'image_' + camera_id + '.jpg'), background)
+cv2.error: OpenCV(4.10.0) /home/conda/feedstock_root/build_artifacts/libopencv_1718892936089/work/modules/imgcodecs/src/loadsave.cpp:798: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+
