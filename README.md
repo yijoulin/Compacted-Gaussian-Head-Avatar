@@ -3,7 +3,7 @@ This project focuses on compacting the [Gaussian Head Avatar](https://yuelangx.g
 3D Gaussians, which takes up most of the storage. By quantizing key attributes of rotation, scale, and features, this project achieve
 a 8x reduction in storage with extreme minimal impact
 on performance. 
-
+[baseline](assets/baseline.png)
 
 # Environment Setting
 git clone https://github.com/YuelangX/Gaussian-Head-Avatar.git --recursive
