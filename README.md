@@ -1,5 +1,5 @@
-## Overview
-This project focuses on compacting the [Gaussian Head Avatar](https://yuelangx.github.io/gaussianheadavatar/) model using methods in [Compact3D](https://ucdvision.github.io/compact3d/) to significantly reduce memory usage while preserving rendering quality. The original model requires storing a large number of
+# Overview
+This project focuses on compacting the [Gaussian Head Avatar](https://yuelangx.github.io/gaussianheadavatar/) model using methods in [Compact3D](https://ucdvision.github.io/compact3d/) to significantly reduce memory usage while preserving rendering quality. The original model requires storing a large number of
 3D Gaussians, which takes up most of the storage. By quantizing key attributes of rotation, scale, and features, this project achieve
 a 8x reduction in storage with extreme minimal impact
 on performance. 
